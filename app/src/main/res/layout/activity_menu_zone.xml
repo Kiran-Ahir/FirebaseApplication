@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="4"
+    tools:context=".MenuZone">
+
+
+    <Button
+        android:id="@+id/btInsert"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="INSERT"
+        android:textColor="#FFFFFF"
+        android:background="#D50000"
+        android:textSize="50sp"></Button>
+
+    <Button
+        android:id="@+id/btShow"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="SHOW"
+        android:textColor="#FFFFFF"
+        android:background="#2962FF"
+        android:textSize="50sp"></Button>
+
+    <Button
+        android:id="@+id/btDelete"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="DELETE"
+        android:textColor="#FFFFFF"
+        android:background="#FFD600"
+        android:textSize="50sp"></Button>
+
+    <Button
+        android:id="@+id/btUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="UPDATE"
+        android:textColor="#FFFFFF"
+        android:background="#33691E"
+        android:textSize="50sp"></Button>
+
+
+</LinearLayout>
